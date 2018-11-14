@@ -1,0 +1,4 @@
+Log file created at: 2018/08/30 14:20:53
+Running on machine: lianhe-ThinkPad-T470p
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0830 14:20:53.721225 19603 test.cpp:26] HELLO,GOOLE

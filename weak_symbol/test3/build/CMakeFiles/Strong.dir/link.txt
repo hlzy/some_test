@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStrong.a  CMakeFiles/Strong.dir/strong.c.o
+/usr/bin/ranlib libStrong.a

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../math2/MathFunction2.h
+
+/home/lianhe/lian.he/test/cmake_test/test5/math/MathFunction.cpp
+MathFunction2.h
+/home/lianhe/lian.he/test/cmake_test/test5/math/MathFunction2.h
+

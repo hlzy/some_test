@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Demo.dir/main.cpp.o  -o Demo -rdynamic math/libMathFunctions.so math2/libMathFunctions2.a -Wl,-rpath,/home/lianhe/lian.he/test/cmake_test/test5/build/math 

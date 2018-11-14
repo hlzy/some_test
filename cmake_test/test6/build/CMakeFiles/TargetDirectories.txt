@@ -1,0 +1,6 @@
+/home/lianhe/lian.he/test/cmake_test/test6/build/CMakeFiles/edit_cache.dir
+/home/lianhe/lian.he/test/cmake_test/test6/build/CMakeFiles/rebuild_cache.dir
+/home/lianhe/lian.he/test/cmake_test/test6/build/CMakeFiles/Demo.dir
+/home/lianhe/lian.he/test/cmake_test/test6/build/math/CMakeFiles/edit_cache.dir
+/home/lianhe/lian.he/test/cmake_test/test6/build/math/CMakeFiles/rebuild_cache.dir
+/home/lianhe/lian.he/test/cmake_test/test6/build/math/CMakeFiles/MathFunctions.dir

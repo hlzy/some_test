@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/Demo.dir/weak2.c.o  -o Demo -rdynamic -Wl,--whole-archive libStrong.a -Wl,--no-whole-archive libStrong.a 

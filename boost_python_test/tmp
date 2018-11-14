@@ -1,0 +1,24 @@
+man shared_ptr
+find / -name "memory.h" 2>/dev/null| xargs -I@ sh -c "grep shared_ptr @"
+find / -name "memory.hpp" 2>/dev/null| xargs -I@ sh -c "grep shared_ptr @"
+find / -name "memory.hpp" 2>/dev/null| xargs -I@ sh -c "grep shared_ptr @;echo #"
+find / -name "memory.hpp" 2>/dev/null| xargs -I@ sh -c "grep shared_ptr @;echo @"
+find / -name "shared_ptr" 2>/dev/null
+find / -name "shared_ptr.hpp" 2>/dev/null
+vim /usr/include/boost/shared_ptr.hpp 
+vim /usr/include/boost/smart_ptr/shared_ptr.hpp 
+mkdir shared_ptrtest
+cd shared_ptrtest/
+cd shared_ptrtest/
+cd shared_ptrtest/
+cd shared_ptrtest/
+vim shared_ptrtest/
+cd shared_ptrtest/
+cd shared_ptrtest/
+cd shared_ptrtest/
+cd shared_ptrtest/
+cd shared_ptrtest/
+g++ test_class.cpp -I. -shared -fPIC -shared -o libtest_class.so
+g++ test_class_wrapper.cpp -o my_module_name.so -shared -fPIC -I. -L${BOOST_LIB_DIR} -L. -ltest_class -lboost_python 
+g++ test_class_wrapper.cpp -o my_module_name.so -shared -fPIC -I. -I/usr/include/python2.7 -L${BOOST_LIB_DIR} -L. -ltest_class -lboost_python 
+g++ test_class_wrapper.cpp -o test_class.so -shared -fPIC -I. -I/usr/include/python2.7 -L${BOOST_LIB_DIR} -L. -ltest_class -lboost_python 

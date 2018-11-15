@@ -1,1 +1,2 @@
-/usr/bin/cc  -fPIC -g  -shared -Wl,-soname,libMathFunctions2.so -o libMathFunctions2.so CMakeFiles/MathFunctions2.dir/MathFunction2.c.o 
+/usr/bin/ar qc libMathFunctions2.a  CMakeFiles/MathFunctions2.dir/MathFunction2.c.o
+/usr/bin/ranlib libMathFunctions2.a

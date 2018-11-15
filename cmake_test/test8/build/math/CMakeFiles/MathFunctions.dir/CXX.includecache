@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/lianhe/lian.he/test/cmake_test/test8/math/MathFunction.cpp
+/home/lianhe/lian.he/some_test/cmake_test/test8/math/MathFunction.cpp
 MathFunction.h
-/home/lianhe/lian.he/test/cmake_test/test8/math/MathFunction.h
+/home/lianhe/lian.he/some_test/cmake_test/test8/math/MathFunction.h
 stdio.h
-/home/lianhe/lian.he/test/cmake_test/test8/math/stdio.h
+/home/lianhe/lian.he/some_test/cmake_test/test8/math/stdio.h
 
-/home/lianhe/lian.he/test/cmake_test/test8/math/MathFunction.h
+/home/lianhe/lian.he/some_test/cmake_test/test8/math/MathFunction.h
 

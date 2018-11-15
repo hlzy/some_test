@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/lianhe/lian.he/test/cmake_test/test8/math2/MathFunction2.c" "/home/lianhe/lian.he/test/cmake_test/test8/build/math2/CMakeFiles/MathFunctions2.dir/MathFunction2.c.o"
+  "/home/lianhe/lian.he/some_test/cmake_test/test8/math2/MathFunction2.c" "/home/lianhe/lian.he/some_test/cmake_test/test8/build/math2/CMakeFiles/MathFunctions2.dir/MathFunction2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -6,5 +6,5 @@ CXX_FLAGS =  -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lianhe/lian.he/test/cmake_test/test8/math 
+CXX_INCLUDES = -I/home/lianhe/lian.he/some_test/cmake_test/test8/math 
 

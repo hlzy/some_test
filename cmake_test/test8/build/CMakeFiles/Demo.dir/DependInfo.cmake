@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lianhe/lian.he/test/cmake_test/test8/main.cpp" "/home/lianhe/lian.he/test/cmake_test/test8/build/CMakeFiles/Demo.dir/main.cpp.o"
+  "/home/lianhe/lian.he/some_test/cmake_test/test8/main.cpp" "/home/lianhe/lian.he/some_test/cmake_test/test8/build/CMakeFiles/Demo.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,8 +15,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lianhe/lian.he/test/cmake_test/test8/build/math/CMakeFiles/MathFunctions.dir/DependInfo.cmake"
-  "/home/lianhe/lian.he/test/cmake_test/test8/build/math2/CMakeFiles/MathFunctions2.dir/DependInfo.cmake"
+  "/home/lianhe/lian.he/some_test/cmake_test/test8/build/math/CMakeFiles/MathFunctions.dir/DependInfo.cmake"
+  "/home/lianhe/lian.he/some_test/cmake_test/test8/build/math2/CMakeFiles/MathFunctions2.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lianhe/lian.he/test/cmake_test/test8
+CMAKE_SOURCE_DIR = /home/lianhe/lian.he/some_test/cmake_test/test8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lianhe/lian.he/test/cmake_test/test8/build
+CMAKE_BINARY_DIR = /home/lianhe/lian.he/some_test/cmake_test/test8/build
 
 # Include any dependencies generated for this target.
 include math/CMakeFiles/MathFunctions.dir/depend.make
@@ -59,16 +59,16 @@ include math/CMakeFiles/MathFunctions.dir/flags.make
 
 math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.o: math/CMakeFiles/MathFunctions.dir/flags.make
 math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.o: ../math/MathFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lianhe/lian.he/test/cmake_test/test8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.o"
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build/math && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathFunctions.dir/MathFunction.cpp.o -c /home/lianhe/lian.he/test/cmake_test/test8/math/MathFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lianhe/lian.he/some_test/cmake_test/test8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.o"
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build/math && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathFunctions.dir/MathFunction.cpp.o -c /home/lianhe/lian.he/some_test/cmake_test/test8/math/MathFunction.cpp
 
 math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathFunctions.dir/MathFunction.cpp.i"
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lianhe/lian.he/test/cmake_test/test8/math/MathFunction.cpp > CMakeFiles/MathFunctions.dir/MathFunction.cpp.i
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lianhe/lian.he/some_test/cmake_test/test8/math/MathFunction.cpp > CMakeFiles/MathFunctions.dir/MathFunction.cpp.i
 
 math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathFunctions.dir/MathFunction.cpp.s"
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lianhe/lian.he/test/cmake_test/test8/math/MathFunction.cpp -o CMakeFiles/MathFunctions.dir/MathFunction.cpp.s
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build/math && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lianhe/lian.he/some_test/cmake_test/test8/math/MathFunction.cpp -o CMakeFiles/MathFunctions.dir/MathFunction.cpp.s
 
 math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.o.requires:
 
@@ -88,16 +88,12 @@ MathFunctions_OBJECTS = \
 # External object files for target MathFunctions
 MathFunctions_EXTERNAL_OBJECTS =
 
-math/libMathFunctions.so.1.0: math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.o
-math/libMathFunctions.so.1.0: math/CMakeFiles/MathFunctions.dir/build.make
-math/libMathFunctions.so.1.0: math2/libMathFunctions2.so
-math/libMathFunctions.so.1.0: math/CMakeFiles/MathFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lianhe/lian.he/test/cmake_test/test8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libMathFunctions.so"
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build/math && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathFunctions.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build/math && $(CMAKE_COMMAND) -E cmake_symlink_library libMathFunctions.so.1.0 libMathFunctions.so.1.0 libMathFunctions.so
-
-math/libMathFunctions.so: math/libMathFunctions.so.1.0
-	@$(CMAKE_COMMAND) -E touch_nocreate math/libMathFunctions.so
+math/libMathFunctions.so: math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.o
+math/libMathFunctions.so: math/CMakeFiles/MathFunctions.dir/build.make
+math/libMathFunctions.so: math2/libMathFunctions2.a
+math/libMathFunctions.so: math/CMakeFiles/MathFunctions.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lianhe/lian.he/some_test/cmake_test/test8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libMathFunctions.so"
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build/math && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathFunctions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 math/CMakeFiles/MathFunctions.dir/build: math/libMathFunctions.so
@@ -109,10 +105,10 @@ math/CMakeFiles/MathFunctions.dir/requires: math/CMakeFiles/MathFunctions.dir/Ma
 .PHONY : math/CMakeFiles/MathFunctions.dir/requires
 
 math/CMakeFiles/MathFunctions.dir/clean:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build/math && $(CMAKE_COMMAND) -P CMakeFiles/MathFunctions.dir/cmake_clean.cmake
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build/math && $(CMAKE_COMMAND) -P CMakeFiles/MathFunctions.dir/cmake_clean.cmake
 .PHONY : math/CMakeFiles/MathFunctions.dir/clean
 
 math/CMakeFiles/MathFunctions.dir/depend:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lianhe/lian.he/test/cmake_test/test8 /home/lianhe/lian.he/test/cmake_test/test8/math /home/lianhe/lian.he/test/cmake_test/test8/build /home/lianhe/lian.he/test/cmake_test/test8/build/math /home/lianhe/lian.he/test/cmake_test/test8/build/math/CMakeFiles/MathFunctions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lianhe/lian.he/some_test/cmake_test/test8 /home/lianhe/lian.he/some_test/cmake_test/test8/math /home/lianhe/lian.he/some_test/cmake_test/test8/build /home/lianhe/lian.he/some_test/cmake_test/test8/build/math /home/lianhe/lian.he/some_test/cmake_test/test8/build/math/CMakeFiles/MathFunctions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : math/CMakeFiles/MathFunctions.dir/depend
 

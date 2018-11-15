@@ -8,11 +8,11 @@
 
 ../math/MathFunction.h
 
-/home/lianhe/lian.he/test/cmake_test/test8/main.cpp
+/home/lianhe/lian.he/some_test/cmake_test/test8/main.cpp
 stdio.h
 -
 stdlib.h
 -
 MathFunction.h
-/home/lianhe/lian.he/test/cmake_test/test8/MathFunction.h
+/home/lianhe/lian.he/some_test/cmake_test/test8/MathFunction.h
 

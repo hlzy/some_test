@@ -1,0 +1,4 @@
+/home/lianhe/lian.he/test/weak_symbol/test3/build/CMakeFiles/edit_cache.dir
+/home/lianhe/lian.he/test/weak_symbol/test3/build/CMakeFiles/rebuild_cache.dir
+/home/lianhe/lian.he/test/weak_symbol/test3/build/CMakeFiles/Demo.dir
+/home/lianhe/lian.he/test/weak_symbol/test3/build/CMakeFiles/Strong.dir

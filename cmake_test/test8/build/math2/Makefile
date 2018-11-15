@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lianhe/lian.he/test/cmake_test/test8
+CMAKE_SOURCE_DIR = /home/lianhe/lian.he/some_test/cmake_test/test8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lianhe/lian.he/test/cmake_test/test8/build
+CMAKE_BINARY_DIR = /home/lianhe/lian.he/some_test/cmake_test/test8/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lianhe/lian.he/test/cmake_test/test8/build/CMakeFiles /home/lianhe/lian.he/test/cmake_test/test8/build/math2/CMakeFiles/progress.marks
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lianhe/lian.he/test/cmake_test/test8/build/CMakeFiles 0
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lianhe/lian.he/some_test/cmake_test/test8/build/CMakeFiles /home/lianhe/lian.he/some_test/cmake_test/test8/build/math2/CMakeFiles/progress.marks
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lianhe/lian.he/some_test/cmake_test/test8/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/clean
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/preinstall
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/preinstall
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 math2/CMakeFiles/MathFunctions2.dir/rule:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/CMakeFiles/MathFunctions2.dir/rule
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f CMakeFiles/Makefile2 math2/CMakeFiles/MathFunctions2.dir/rule
 .PHONY : math2/CMakeFiles/MathFunctions2.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ MathFunctions2: math2/CMakeFiles/MathFunctions2.dir/rule
 
 # fast build rule for target.
 MathFunctions2/fast:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f math2/CMakeFiles/MathFunctions2.dir/build.make math2/CMakeFiles/MathFunctions2.dir/build
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f math2/CMakeFiles/MathFunctions2.dir/build.make math2/CMakeFiles/MathFunctions2.dir/build
 .PHONY : MathFunctions2/fast
 
 MathFunction2.o: MathFunction2.c.o
@@ -131,7 +131,7 @@ MathFunction2.o: MathFunction2.c.o
 
 # target to build an object file
 MathFunction2.c.o:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f math2/CMakeFiles/MathFunctions2.dir/build.make math2/CMakeFiles/MathFunctions2.dir/MathFunction2.c.o
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f math2/CMakeFiles/MathFunctions2.dir/build.make math2/CMakeFiles/MathFunctions2.dir/MathFunction2.c.o
 .PHONY : MathFunction2.c.o
 
 MathFunction2.i: MathFunction2.c.i
@@ -140,7 +140,7 @@ MathFunction2.i: MathFunction2.c.i
 
 # target to preprocess a source file
 MathFunction2.c.i:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f math2/CMakeFiles/MathFunctions2.dir/build.make math2/CMakeFiles/MathFunctions2.dir/MathFunction2.c.i
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f math2/CMakeFiles/MathFunctions2.dir/build.make math2/CMakeFiles/MathFunctions2.dir/MathFunction2.c.i
 .PHONY : MathFunction2.c.i
 
 MathFunction2.s: MathFunction2.c.s
@@ -149,7 +149,7 @@ MathFunction2.s: MathFunction2.c.s
 
 # target to generate assembly for a file
 MathFunction2.c.s:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(MAKE) -f math2/CMakeFiles/MathFunctions2.dir/build.make math2/CMakeFiles/MathFunctions2.dir/MathFunction2.c.s
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(MAKE) -f math2/CMakeFiles/MathFunctions2.dir/build.make math2/CMakeFiles/MathFunctions2.dir/MathFunction2.c.s
 .PHONY : MathFunction2.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lianhe/lian.he/test/cmake_test/test8/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lianhe/lian.he/test/cmake_test/test8/math2
+# Install script for directory: /home/lianhe/lian.he/some_test/cmake_test/test8/math2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

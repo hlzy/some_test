@@ -90,7 +90,7 @@ MathFunctions_EXTERNAL_OBJECTS =
 
 math/libMathFunctions.so: math/CMakeFiles/MathFunctions.dir/MathFunction.cpp.o
 math/libMathFunctions.so: math/CMakeFiles/MathFunctions.dir/build.make
-math/libMathFunctions.so: math2/libMathFunctions2.a
+math/libMathFunctions.so: math2/libMathFunctions2.so
 math/libMathFunctions.so: math/CMakeFiles/MathFunctions.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lianhe/lian.he/some_test/cmake_test/test8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libMathFunctions.so"
 	cd /home/lianhe/lian.he/some_test/cmake_test/test8/build/math && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathFunctions.dir/link.txt --verbose=$(VERBOSE)

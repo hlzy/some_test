@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MathFunctions2.dir/MathFunction2.c.o"
   "libMathFunctions2.pdb"
-  "libMathFunctions2.a"
+  "libMathFunctions2.so"
 )
 
 # Per-language clean rules from dependency scanning.

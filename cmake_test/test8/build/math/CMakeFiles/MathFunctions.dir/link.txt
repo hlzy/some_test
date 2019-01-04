@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC  -g  -shared -Wl,-soname,libMathFunctions.so -o libMathFunctions.so CMakeFiles/MathFunctions.dir/MathFunction.cpp.o ../math2/libMathFunctions2.a 
+/usr/bin/c++  -fPIC  -g  -shared -Wl,-soname,libMathFunctions.so -o libMathFunctions.so CMakeFiles/MathFunctions.dir/MathFunction.cpp.o ../math2/libMathFunctions2.so -Wl,-rpath,/home/lianhe/lian.he/some_test/cmake_test/test8/build/math2 

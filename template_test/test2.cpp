@@ -35,7 +35,7 @@ struct MyValue
     }
     static void GetType(void* pData)
     {
-        cout<<"get type struct0"<<endl;
+        cout<<"get type xxx"<<endl;
         return;
     }
 };
@@ -101,7 +101,7 @@ struct MyValue<1>
  
 int main(int argc,char **argv)
 {
-//    void* lp;
+    void* lp;
 //    int *b =new int[20];
 //    vector<int> a(b,b+10);
 // 
@@ -110,17 +110,19 @@ int main(int argc,char **argv)
 //    GetValueFunc<3>(lp);
 //    GetValueFunc<3,3>(lp);
 
-//    MyValue<0>::GetType(lp);
-//    MyValue<1>::GetType(lp);
-//    MyValue<1>::GetValue(lp);
-    cout << argc<<endl;
-    cout <<argv[0]<<endl;
-    cout <<argv[1]<<endl;
-    string context_dir;
-    context_dir  = string("/asdf/sfasf/sdfasfd/");
-    cout << context_dir.substr(0,context_dir.size()-1) <<endl;
-    cout << context_dir.find_last_of("/") <<endl;
-    cout << context_dir.substr(context_dir.substr(0,context_dir.size()-1).find_last_of("/")) << endl;
+    MyValue<0>::GetType(lp);
+    MyValue<0>::GetType(lp);
+    MyValue<1>::GetValue(lp);
+    MyValue::GetType(lp);
+
+//    cout << argc<<endl;
+//    cout <<argv[0]<<endl;
+//    cout <<argv[1]<<endl;
+//    string context_dir;
+//    context_dir  = string("/asdf/sfasf/sdfasfd/");
+//    cout << context_dir.substr(0,context_dir.size()-1) <<endl;
+//    cout << context_dir.find_last_of("/") <<endl;
+//    cout << context_dir.substr(context_dir.substr(0,context_dir.size()-1).find_last_of("/")) << endl;
     return 0;
 }
 
